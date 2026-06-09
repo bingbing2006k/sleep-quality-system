@@ -140,7 +140,7 @@ st.set_page_config(page_title="睡眠品質追蹤系統", page_icon="🌙", layo
 init_db()
 
 st.title("🌙 睡眠品質追蹤系統")
-st.caption("專注於睡眠，不做人體電池；用每天睡眠紀錄分析睡眠分數、疲勞風險與改善建議。")
+st.caption("用每天睡眠紀錄分析睡眠分數、疲勞風險與改善建議。")
 
 menu = st.sidebar.radio("功能選單", ["新增睡眠紀錄", "睡眠儀表板", "歷史資料", "系統說明"])
 
